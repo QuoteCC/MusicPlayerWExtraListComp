@@ -31,8 +31,8 @@ public class Main2Activity extends AppCompatActivity {
         i = (ImageView) findViewById(R.id.pic);
         b = (Button) findViewById(R.id.but);
 
-        Log.d("DEBUGp", pic);
-        Log.d("DEBUGn", name);
+        //Log.d("DEBUGp", pic);
+        //gLog.d("DEBUGn", name);
         b.setText(name);
         i.setImageResource(getResources().getIdentifier(pic, "drawable", getPackageName()));
 
